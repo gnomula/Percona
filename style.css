@@ -1,0 +1,78 @@
+* {
+   padding: 0;
+   margin: 0px;
+ }
+body{
+     background-color:#ffc266;
+ }
+#name, #email,  textarea{
+                        background-color: #ffff99;
+                        border:6px;
+                        border-color: #cc0000;            
+  }
+#name, #email{
+               width: 300px; 
+               height: 30px;
+  }       
+textarea {
+          width: 300px;
+          height: 300px;
+  }
+h1{
+   text-align:center;
+   font-weight:bold;
+   text-decoration: underline;
+   text-transform: capitalize;
+   color:#cc0000;
+  }
+.hidden {
+         display: none;
+         visiblity: hidden;
+  }
+    
+.visible {
+          display: inline;
+          visiblity: visible;
+          font-weight: bold;
+          text-transform: capitalize;            
+  }
+    
+.menu{
+      font-size:14px;
+      font-weight:bold;       
+      border:0px;
+      margin:0px;
+      padding:0px;
+      font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  }
+.menu ul{
+         margin:0;
+         padding:0;
+         -webkit-border-radius: 15px;
+         -moz-border-radius: 15px;
+         border-radius: 15px;
+         -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+         -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+         box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+         background:#F93;
+         height:50px;
+}
+.menu li{
+         float:left;
+         padding:0px 0px 0px 15px;
+}
+.menu li a{
+          line-height:50px;
+          margin:0px;
+          padding:0px 25px;
+          text-align:center;
+          color:#000;
+          display:block;
+          font-weight:normal;
+}
+.menu ul li:hover a{
+                    background:#C60;
+                    color:#FFFFFF;
+}
+
+    
